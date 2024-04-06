@@ -19,6 +19,9 @@
     $vetor["tio"] = "tio";
     echo "<br>" .$vetor["tio"];
 
-    foreach ($vetor as $v){
-        echo "$v <br>";
+    foreach ($vetor as $p =>$v){
+        echo "Posição $p = $v <br>";
     }
+
+    print_r($vetor);
+    var_dump($vetor);
