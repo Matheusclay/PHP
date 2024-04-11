@@ -4,6 +4,8 @@
 
     if ($valor1 > 0) {
         echo "<p>O valor é positivo</p>";
-    } else {
+    } else if ($valor1 < 0){
         echo "<p>O valor é negativo</p>";
+    } else {
+        echo "<p>O valor é igual a zero</p>";
     }
